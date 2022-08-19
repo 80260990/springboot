@@ -8,6 +8,7 @@ import lombok.*;
 //@AllArgsConstructor //全参构造器
 @EqualsAndHashCode
 public class User {
+    private Long id;
     private String name;
     private Integer age;
     private Pet pet;
